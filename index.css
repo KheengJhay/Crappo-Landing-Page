@@ -157,7 +157,7 @@ div.main-intro-container > div.sub-intro-container > div.caret{
     text-align: center;
     position: absolute;
     left: 150px;
-    top: -50px
+    top: 10rem
 }
 div.caret > i{
     color: blue;
