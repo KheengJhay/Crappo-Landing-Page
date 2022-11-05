@@ -1,0 +1,613 @@
+/* Small Mobile Screen (320px) */
+@media only screen and (min-width: 320px) {
+    div.navigation-content , a , div.log-register{
+        display: none;
+    }
+    /* Pill Container */
+    div.main-intro-container > div.sub-intro-container > h6.pill-main-container {
+        font-size: 15px;
+    }
+    /* 70% Save Container */
+    div.main-intro-container > div.sub-intro-container > h6 {
+        font-size: 15px;
+        width: 110px;
+        bottom: 18px;
+    }
+    /* Try for Free Container */
+    h6.trial-container {
+        bottom: 23px;
+    }
+    /* Caret Icon */
+    div.caret{
+        background-color: var(--primary-color);
+        top: 329px;
+    }
+    div.info{
+        margin-top: 125rem;
+    }
+    div.info > div.info-text > h3.info-sub-text{
+        margin-top: 1.25rem;
+    }
+    div.info > div.info-text > div.main-text-container > h3{
+        color: var(--primary-color);
+        text-align: center;
+    }
+    div.main-container > div.subscribe{
+        margin-top: 450px;
+        background-image: url(images/newsletter-box.png);
+    }
+    div.subscribe > input{
+        color: var(--primary-color);
+    }
+    div.subscribe > h3{
+        margin-top: 200px;
+        color: var(--primary-color);
+    }
+    div.subscribe > p{
+        width: 95%;
+        text-align: left;
+        font-size: 13px;
+    }
+}
+/* Medium Mobile Screen (375px) */
+    @media only screen and (min-width: 375px) {
+    /* Pill Container */
+    h6.pill-main-container {
+        font-size: 16px;
+    }
+    /* 70% Save Container */
+    h6 {
+        font-size: 15px;
+        width: 110px;
+        bottom: 16px;
+    }
+    /* Try for Free Container */
+    h6.trial-container {
+        bottom: 23px;
+    }
+    /* Caret Icon */
+    div.caret{
+        background-color: var(--primary-color);
+        top: 284px;
+        }
+    div.coins-container > h3{
+        margin-top: 130px;
+    }
+    div.info > div.info-text > div.main-text-container{
+        margin-top: 190px;
+        color: var(--primary-color);
+    }
+    div.info > div.info-text > div.main-text-container > h3{
+        color: var(--primary-color);
+        text-align: center;
+    }
+    div.main-container > div.subscribe{
+        margin-top: 550px;
+    }
+}
+/* Large Mobile Screen (425px) */
+@media only screen and (min-width: 425px) {
+    div.coins-container{
+        margin-top: 10px;
+        height:  240vh;
+    }
+    div.coins-container > h3{
+        margin-top: 10px;
+    }
+    div.earn > p{
+        text-align: center;
+        margin-bottom: 190px;
+    }
+    div.calculate-main-container  >  div.calculate{
+        top: 1670px;
+        z-index: 2;
+        margin-top: 15px;
+    }
+    div.coins-container >  div > h3{
+        margin: 230px 5px 0 5px;
+        text-align: center;
+    }
+    div.info{
+        margin-top: 125rem;
+    }
+    div.main-container > div.subscribe{
+        margin-top: 600px;
+    } 
+}
+/* Tablet Screen (768px) */
+@media only screen and (min-width: 768px) {
+    span {
+        display: none;
+    }
+    /* Pill Container */
+    h6.pill-main-container {
+        font-size: 20px;
+    }
+    /* 70% Save Container */
+    h6 {
+        bottom: 6px;
+        margin-bottom: 10px;
+    }
+    /* Try for Free Container */
+    h6.trial-container {
+        bottom: 23px;
+    }
+    /* Caret Icon */
+    div.caret{
+        background-color: var(--primary-color);
+        top: 222px;
+    }
+    div.coins-container{
+        background-color: rgb(233, 232, 232);
+        background-attachment: fixed;
+        height:  20vh;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+        left: 0;
+        width: 100%;
+    }
+    div.coins-container >  div > h3{
+        margin-top: 300px;
+        margin-bottom: 50px;
+        font-size: 30px;
+        width: 500px;
+        text-align: center;
+    }
+    div.calculate-main-container  >  div.calculate{
+        top: 1450px;
+        z-index: 2;
+        margin-top: 15px;
+        
+    }
+    div.info{
+        position: static;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        z-index: 1001;
+        margin-top: 75rem;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    div.info > div.info-text > div.main-text-container > h3{
+        color: var(--primary-color);
+        text-align: center;
+        font-size: 30px;
+    }
+    div.info-sub-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin: 0 30px 0 30px;
+    }
+    div.info-sub-container[container ="2"]{
+        flex-direction: row-reverse;
+    }
+    div.info-sub-container[container ="2"] > div.info-text-container{
+        margin-left: 168px;
+    }  
+    div.info-sub-container > div.info-text-container{
+        display: flex;
+        flex-direction: column;
+    }
+    div.info > div.info-text > div.info-sub-container > div.info-text-container > h3.info-sub-text{
+        color: var(--primary-color);
+        margin-bottom: 30px;
+        margin-top: 10px;
+        font-size: 28px;
+    }
+    div.info > div.info-text > div.info-sub-container > div.info-text-container > h4{
+        width: 90%;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    div.info > div.info-text > div.info-sub-container > div.info-text-container > div > button{
+        background-image: url(images/newsletter-box.png);
+        background-position: center;
+        width: 120px;
+        border-radius: 40rem;
+        border: none;
+        font-size: 15px;
+        padding: 10px;
+        color: var(--primary-color);
+        margin-bottom: 20px;
+    }
+    div.info > div.info-text > div.info-sub-container > div.info-image > img{
+        width: 100%;
+    }
+    div.stats-main-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    div.stats-main-container > div.chart-stats-sub-container > div.chart-icon-container{
+        background-color: rgb(75, 74, 74);
+        width: 40px;
+        height: 40px;
+        border-radius: 40rem;
+        text-align: center;
+        padding: 10px 0px 0px 0px;
+    }
+    div.stats-main-container > div.globe-stats-sub-container > div.globe-icon-container{
+        background-color: rgb(75, 74, 74);
+        width: 40px;
+        height: 40px;
+        border-radius: 40rem;
+        text-align: center;
+        padding: 10px 0px 0px 0px;
+    }
+    div.stats-main-container > div.user-stats-sub-container > div.user-icon-container{
+        background-color: rgb(75, 74, 74);
+        width: 40px;
+        height: 40px;
+        border-radius: 40rem;
+        text-align: center;
+        padding: 9px 0px 0px 0px;
+    }
+    div.why-container{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    div.why-container > div.why-sub-container > h1{
+        text-align: left;
+        color: var(--primary-color);
+    }
+    div.why-container > img {
+        width: 50%;
+    }
+    div.calculate > form > select{
+        width: 90%;
+        padding: 10px 0 2px 0;
+        margin: 10px 5px 10px 5px;
+        outline: none;
+        background-color: rgb(236, 234, 234);
+        border: none;
+        margin: 10px 20px 10px 20px;
+        padding: 10px;
+    }
+    div.coins-container{
+        background-color: rgb(233, 232, 232);
+        background-attachment: fixed;
+        position: absolute;
+        display: flex;
+        height:  150vh;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+        left: 0;
+        width: 100%;
+    }
+    div.coins-container > div.coins-sub-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    div.coins-container > div.coins-sub-container > div.bitcoin-container {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    div.coins-container > div.coins-sub-container > div.litecoin-container {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    div.coins-container > div.coins-sub-container > div.ethereum-container {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    div.coins-container > div.coins-sub-container > div > h3{
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    div.main-container > div.subscribe{
+        margin-top: 350px;
+    }   
+}
+/* Laptop Screen (1024px) */
+@media only screen and (min-width: 1024px) {
+    div.main-intro-container > div.sub-intro-container > h6.pill-main-container {
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        background-color: gray;
+        border-radius: 40rem;
+        width: 35%;
+        padding: 10px 15px 10px 20px;
+        z-index: -1;
+        text-align: right;
+        top: 90px;
+        left: 7px;
+        height: 43px;
+        margin-left: 10px;
+    }
+    div.main-intro-container > div.sub-intro-container > h6 {
+        bottom: 5px;
+        left: 15px;
+    }
+    div.caret{
+        top: 327px;
+    }
+    div.main-intro-container{
+        display: flex;
+        align-items: center;
+    }
+    div.main-intro-container > div.sub-intro-container{
+        display: flex;
+        flex-direction: column;
+    }
+    div.main-intro-container > div.hero-img-container {
+        margin-top: 60px;
+    }
+    div.main-intro-container > div.hero-img-container > img{
+        width: 60%;
+    }
+    div.earn > p{
+        text-align: center;
+    }
+    div.stats-main-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    div.stats-main-container > div.chart-stats-sub-container > div.chart-icon-container{
+        width: 60px;
+        height: 60px;
+        border-radius: 40rem;
+        text-align: center;
+        padding: 15px 0px 0px 0px;
+    }
+    div.stats-main-container > div.chart-stats-sub-container >  div.chart-icon-container > i.ri-bar-chart-fill{
+        color: rgb(1, 1, 150);
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    div.stats-main-container > div.chart-stats-sub-container > div.amount-and-text > div.text{
+        color: var(--primary-color);
+        font-size: 20px;
+    }
+    div.stats-main-container > div.chart-stats-sub-container > div.amount-and-text > div.amount{
+        color: var(--primary-color);
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    div.stats-main-container > div.globe-stats-sub-container > div.globe-icon-container{
+        width: 60px;
+        height: 60px;
+        border-radius: 40rem;
+        text-align: center;
+        padding: 15px 0px 0px 0px;
+    }
+    div.stats-main-container > div.globe-stats-sub-container >  div.globe-icon-container > i.ri-globe-fill{
+        color: rgb(1, 1, 150);
+        font-size: 30px;
+    }
+    div.stats-main-container > div.globe-stats-sub-container > div.globe-amount-and-text > div.text{
+        color: var(--primary-color);
+        font-size: 20px;
+    }
+    div.stats-main-container > div.globe-stats-sub-container > div.globe-amount-and-text > div.amount{
+        color: var(--primary-color);
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    div.stats-main-container > div.user-stats-sub-container > div.user-icon-container{
+        width: 60px;
+        height: 60px;
+        border-radius: 40rem;
+        text-align: center;
+        padding: 15px 0px 0px 0px;
+    }
+    div.stats-main-container > div.user-stats-sub-container >  div.user-icon-container > i.ri-user-3-fill{
+        color: rgb(1, 1, 150);
+        font-size: 30px;
+    }
+    div.stats-main-container > div.user-stats-sub-container > div.user-amount-and-text > div.text{
+        color: var(--primary-color);
+        font-size: 20px;
+    }
+    div.stats-main-container > div.user-stats-sub-container > div.user-amount-and-text > div.amount{
+        color: var(--primary-color);
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    div.stats-main-container > div.chart-stats-sub-container { 
+        width: 33.3%;
+    }
+    div.stats-main-container > div.user-stats-sub-container { 
+        width: 33.3%;
+    }
+    div.stats-main-container > div.globe-stats-sub-container { 
+        width: 33.3%;
+    }
+    div.coins-container >  div > h3{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 30px;
+        width: 500px;
+        text-align: center;
+    }
+    div.coins-container > div.coins-sub-container > div.bitcoin-container {
+        margin-right: 20px;
+        margin-left: 20px;
+        text-align: center;
+        width: 25%;
+    }
+    div.coins-container > div.coins-sub-container > div.litecoin-container {
+        margin-right: 20px;
+        margin-left: 20px;
+        text-align: center;
+        width: 25%;
+    }
+    div.coins-container > div.coins-sub-container > div.ethereum-container {
+        margin-right: 20px;
+        margin-left: 20px;
+        text-align: center;
+        width: 25%;
+    }
+    div.info > div.info-text {
+        margin-top: 70px;
+    }
+    div.info > div.info-text > div.main-text-container > h3{
+        color: var(--primary-color);
+        text-align: center;
+        font-size: 30px;
+        margin-top: 350px;
+    }
+    div.info-sub-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin: 0 30px 0 30px;
+    }
+    div.info-sub-container[container ="2"]{
+        flex-direction: row-reverse;
+    }
+    div.info-sub-container[container ="2"] > div.info-text-container{
+        margin-left: 168px;
+    }  
+    div.info-sub-container > div.info-text-container{
+        display: flex;
+        flex-direction: column;
+    }
+    div.info > div.info-text > div.info-sub-container > div.info-text-container > h3.info-sub-text{
+        color: var(--primary-color);
+        margin-bottom: 30px;
+        margin-top: 10px;
+        font-size: 28px;
+    }
+    div.info > div.info-text > div.info-sub-container > div.info-text-container > h4{
+        width: 90%;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    div.info > div.info-text > div.info-sub-container > div.info-text-container > div > button{
+        background-image: url(images/newsletter-box.png);
+        background-position: center;
+        width: 120px;
+        border-radius: 40rem;
+        border: none;
+        font-size: 15px;
+        padding: 10px;
+        color: var(--primary-color);
+        margin-bottom: 20px;
+    }
+    div.info > div.info-text > div.info-sub-container > div.info-image > img{
+        width: 100%;
+    }
+    div.main-container > div.subscribe{
+        margin-top: 400px;
+        width: 90%;
+        margin: 600px 0 0 50px;
+    }
+    div.subscribe > input{
+        color: var(--primary-color);
+        font-size: 20px
+    }
+    div.subscribe > h3{
+        margin-top: 200px;
+        color: var(--primary-color);
+        font-size: 20px;
+    }
+    div.subscribe > p{
+        width: 95%;
+        text-align: left;
+        font-size: 20px;
+    }
+    div.sub-footer-container{
+        display: flex;
+        flex-direction: row;
+    }
+    div.sub-footer-container > div.payment{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div.sub-footer-container > div.img-container{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        margin-top: 13px;
+        margin-right: 100px;
+    }
+    div.sub-footer-container > div {
+        margin-right: 80px;
+        width: 200px;
+    }
+    div.sub-footer-container div > h2{
+        color: var(--primary-color);
+    }
+    div.calculate-main-container  >  div.calculate{
+        top: 1250px;
+        z-index: 2;
+        margin-top: 15px;
+    }
+    div.info{
+        margin-top: 85rem;
+    }
+    div.coins-container{
+        background-color: rgb(233, 232, 232);
+        background-attachment: fixed;
+        height:  130vh;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+        left: 0;
+        width: 100%;
+    }
+    img.logo{
+        display: none;
+        padding-left: 0;
+    }
+    img.logo-large{
+        padding-left: 0px;
+    }
+    div.navigation-content , a , div.log-register {
+        display: flex;
+        align-items: center;
+        color: var(--primary-color);
+        text-decoration: none;
+        padding: 0 35px 0 35px;
+    }
+    div.navigation-content > a[data="products"] {
+        padding-left: 300px;
+    }
+    div.navigation-content > div.log-register > div.slash{
+        padding: 0 20px 0 20px;
+        color: gray;
+    }
+    div.navigation-content > div.log-register > div.reg > a{
+        background-image: url(images/newsletter-box.png);
+        background-position: center;
+        border-radius: 40rem;
+        padding: 0px 10px 0 20px;
+        width: 100px;
+        color: var(--primary-color);
+        height: 35px;
+        font-size: 17px;
+        text-align: center;
+    }
+    h6 {
+        bottom: 2px;
+    }
+
+}
