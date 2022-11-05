@@ -561,7 +561,7 @@ div.info{
     justify-content: center;
 }
 div.info > div.info-text > div.main-text-container > h3 {
-    margin-top: 200px;
+    margin-top: 500px;
 } 
 div.info > div.info-text > div.info-sub-container > div.info-text-container > h3.info-sub-text{
     color: var(--primary-color);
