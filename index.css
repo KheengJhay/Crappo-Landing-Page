@@ -8,7 +8,7 @@
 }
 body {
     font-family: 'Lato', sans-serif;
-    background-image: url(images/hero-bg.png);
+    background-image: url(hero-bg.png);
 }
 /* Navigation content */
 div.overlay-content > a{
@@ -40,7 +40,7 @@ img.hero-img{
     object-fit: contain;
 }
 div.log-reg > div.reg > a{
-    background-image: url(images/newsletter-box.png);
+    background-image: url(newsletter-box.png);
     background-position: center;
     border-radius: 40rem;
     padding: 10px;
@@ -56,7 +56,7 @@ div.overlay {
     z-index: 1;
     top: 0;
     right: 0px;
-    background-image: url(images/hero-bg.png);
+    background-image: url(hero-bg.png);
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -286,7 +286,7 @@ div.why-container > div.why-sub-container > p{
 }
 /* Button */
 div.why-container > div.why-sub-container > button {
-    background-image: url(images/newsletter-box.png);
+    background-image: url(newsletter-box.png);
     background-position: center;
     width: 120px;
     border-radius: 40rem;
@@ -354,7 +354,7 @@ div.calculate > form > select{
     padding: 10px;
 }
 div.calculate > form > button {
-    background-image: url(images/newsletter-box.png);
+    background-image: url(newsletter-box.png);
     background-position: center;
     width: 120px;
     border-radius: 40rem;
@@ -547,7 +547,7 @@ div.coins-container > div.coins-sub-container >  div.litecoin-container > button
 }
 /***** Information Container *****/
 div.info{
-    background-image: url(images/hero-bg.png);
+    background-image: url(hero-bg.png);
     position: static;
     bottom: 0;
     width: 100%;
@@ -587,7 +587,7 @@ div.info > div.info-text > div.info-sub-container > div.info-image > img {
     width: 100%;
 }
 div.info > div.info-text > div.info-sub-container > div.info-text-container > div > button {
-    background-image: url(images/newsletter-box.png);
+    background-image: url(newsletter-box.png);
     background-position: center;
     width: 120px;
     border-radius: 40rem;
