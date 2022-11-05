@@ -328,7 +328,7 @@ div.calculate-main-container > div.calculate{
         position: absolute;
         top: 100rem;
         z-index: 2;
-        margin-top: 15px;
+        margin-top: 30px;
 }
 div.calculate > form > input{
     width: 90%;
