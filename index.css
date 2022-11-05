@@ -144,7 +144,7 @@ div.main-intro-container > div.sub-intro-container > h6.trial-container {
     position: relative;
     bottom: 23px;
     left: 1px;
-    background-image: url(images/newsletter-box.png);
+    background-image: url(newsletter-box.png);
     background-position: center;
 }
 /* Caret Icon */
