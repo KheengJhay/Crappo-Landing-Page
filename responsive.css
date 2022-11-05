@@ -33,8 +33,8 @@
         text-align: center;
     }
     div.main-container > div.subscribe{
-        margin-top: 450px;
-        background-image: url(images/newsletter-box.png);
+        margin-top: 800px;
+        background-image: url(newsletter-box.png);
     }
     div.subscribe > input{
         color: var(--primary-color);
@@ -210,7 +210,7 @@
         text-align: left;
     }
     div.info > div.info-text > div.info-sub-container > div.info-text-container > div > button{
-        background-image: url(images/newsletter-box.png);
+        background-image: url(newsletter-box.png);
         background-position: center;
         width: 120px;
         border-radius: 40rem;
@@ -497,7 +497,7 @@
         margin-bottom: 20px;
     }
     div.info > div.info-text > div.info-sub-container > div.info-text-container > div > button{
-        background-image: url(images/newsletter-box.png);
+        background-image: url(newsletter-box.png);
         background-position: center;
         width: 120px;
         border-radius: 40rem;
@@ -596,7 +596,7 @@
         color: gray;
     }
     div.navigation-content > div.log-register > div.reg > a{
-        background-image: url(images/newsletter-box.png);
+        background-image: url(newsletter-box.png);
         background-position: center;
         border-radius: 40rem;
         padding: 0px 10px 0 20px;
